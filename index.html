@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            color: rgb(0, 0, 0);
+            text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+            background: linear-gradient(135deg, #3d2a92, #8918ca, #890fcf, #7e5ac2, #5fa9c0, #915de4);
+            background-size: 500%;
+            animation: animado 10s infinite;
+        }
+        
+        @keyframes animado {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 20% 100%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+    <script src="scrip.js"></script>
+</body>
+
+</html>
